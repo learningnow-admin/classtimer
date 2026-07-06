@@ -174,8 +174,8 @@
             [:button.font-bold.text-blue-500.text-lg
              {:on-click #(reset! brain-breaks-display false)}
              "Brain Breaks"]
-            [:button.rounded-lg.bg-gray-100.hover:bg-gray-200.px-3.py-1.text-sm.text-gray-600.transition
-             {:on-click #(js/alert "feature to be added")}
+            [:a.rounded-lg.bg-gray-100.hover:bg-gray-200.px-3.py-1.text-sm.text-gray-600.transition
+             {:href "https://bb.learningnow.com.au/" :target "_blank" :rel "noopener noreferrer"}
              "Examples"]]
 
            ;; Content
