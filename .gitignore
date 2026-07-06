@@ -4,5 +4,4 @@
 /resources/tw
 /resources/public/js/cljs-runtime
 /resources/public/js/manifest.edn
-package-lock.json
 notes.org
