@@ -228,6 +228,9 @@
       [:div.container.mx-auto.flex.justify-between.items-center
        [:div.flex.items-center.gap-3
         [:img {:src "ln-logo.svg" :alt "Learning Now" :class "h-8"}]
-        [:span.text-gray-900.font-bold.text-lg "Class Timer"]]
+        [:span.text-gray-900.font-bold.text-lg "Class Timer"]
+        [:a.text-gray-500.text-sm
+         {:href "https://learningnow.com.au/"}
+         "← Learning Now"]]
        [vt/navigation toolbar-items]]]
      [show-panel @active-route]]))
